@@ -118,7 +118,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-
+<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -126,11 +126,12 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>D387SampleCodeApplication</mainClass>
+							<mainClass>src/main/java/edu.wgu.d387_sample_code</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
